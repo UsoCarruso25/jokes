@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Jokes App</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Jokes App 😂</h1>
+  </header>
+
+  <main>
+    <section id="lista-chistes"></section>
+    <aside id="detalle-panel" class="hidden"></aside>
+    <section id="favoritos" class="favoritos"></section>
+  </main>
+
+  <footer>
+    <button id="btn-recargar" class="btn">🔁 Recargar chistes</button>
+    <button id="btn-clear-favs" class="btn btn-ghost">🗑 Limpiar favoritos</button>
+  </footer>
+
+  <script src="js/conexionAPI.js"></script>
+  <script src="js/misFavoritos.js"></script>
+  <script src="js/logEventos.js"></script>
+  <script src="js/detalleChiste.js"></script>
+  <script src="js/listaChistes.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
